@@ -1,9 +1,10 @@
-from django.shortcuts import render,HttpResponse
+from django.http import HttpResponse
+from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    #retrun render (request, 'index.html')
-    return HttpResponse ("this is homepage")
+    return  render  (request, 'index.html')
+    #return HttpResponse ("this is homepage")
 
 def about(request):
     return HttpResponse ("this is aboutpage")
