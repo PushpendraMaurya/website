@@ -6,14 +6,20 @@ def index(request):
     return  render  (request, 'index.html')
     #return HttpResponse ("this is homepage")
 
-def about(request):
-    return HttpResponse ("this is aboutpage")
+def form(request):
+   return  render  (request, 'form.html')
 
-def services(request):
-    return HttpResponse ("this is services")
+def books(request):
+       return  render  (request, 'books.html')
 
 def contact(request):
-    return HttpResponse ("this is contact")
+       return  render  (request, 'contact.html')
+
+def pdf(request):
+       return  render  (request, 'pdf.html')
+
+def blog(request):
+       return  render  (request, 'blog.html')
     
 
     
