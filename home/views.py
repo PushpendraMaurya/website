@@ -17,9 +17,12 @@ def contact(request):
 
 def pdf(request):
        return  render  (request, 'pdf.html')
+<<<<<<< HEAD
 
 def blog(request):
        return  render  (request, 'blog.html')
+=======
+>>>>>>> 28e88f75b086ceebc1a9a95b309a3924ffbd2fad
     
 
     
