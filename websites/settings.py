@@ -123,3 +123,7 @@ STATIC_URL = '/static/'
 
 ##adding manually STATICFILES_DIRS = [
     
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/var/www/static/',
+]
